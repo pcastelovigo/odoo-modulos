@@ -3,7 +3,7 @@
 from odoo import models, fields, api
 import datetime
 
-class StockMoveLineB(models.Model):
+class StockMoveLine(models.Model):
 	_inherit = "stock.move.line"
 
 	lot_id = fields.Many2one('stock.production.lot', 'Lot/Serial Number', domain="[('product_id', '=', product_id), ('company_id', '=', company_id), ('expiration_date', '>', datetime.datetime.now())]", check_company=True)
