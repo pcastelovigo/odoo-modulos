@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "caducados",
+    'name': "product_expiry_hide_expired",
 
     'summary': """Muestra solo los lotes que no están caducados""",
 
@@ -8,8 +8,8 @@
         Muestra solo los lotes que no están caducados
     """,
 
-    'author': "PABLO CASTELO",
-    'website': "http://www.zverp.com",
+    'author': "Pablo Castelo",
+    'website': "https://github.com/pcastelovigo/odoo-modulos",
     'license': "GPL-2",
 
     # Categories can be used to filter modules in modules listing
